@@ -1,34 +1,27 @@
 -module(example1).
+-compile(export_all).
+-import(timer, [sleep/1]).
 
-main()-> 
-  Pidth1 = spawn(example1, th1),
-  Pidth2 = spawn(example1, th2),
-  Pidth1 ! {Pidth2, cupidsArrow};
-  end.
+main() ->
+  io:format("lol\n"),
+  Pidth1 = spawn(fun() -> the() end),
+  Pidth2 = spawn(fun() -> tho() end),
+  Pidth1 ! {Pidth2, cupidsArrow},
+  sleep(2000),
+  ok.
 
-th1()->
+the()->
 	receive
-	  {to, cupidsArrow} ->
-	    to ! {self(), unrequiitedLove};
+	  {To, cupidsArrow} ->
+	    To ! {self(), unrequitedLove},
+	    io:format("lol2\n");
 	  {From, trueLove} ->
-	    io:fwrite("Found true love!\n");
+	    io:format("Found true love!\n")
 	end.
 
-th2()->
+tho()->
 	receive
 	  {From, unrequitedLove} ->
-	    io:fwrite("Eh...\n");
+	    io:format("Eh...\n")
 	end.
 
-fridge1() ->
-  receive
-    {From, {store, _Food}} ->
-      From ! {self(), ok},
-      fridge1();
-    {From, {take, _Food}} ->
-      %% uh....
-      From ! {self(), not_found},
-      fridge1();
-    terminate ->
-      ok
-  end.
