@@ -7,15 +7,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import akka.pattern.ask
 import scala.util.{Failure, Success}
 
-import scala.language.postfixOps
-import scala.sys
-import java.lang.Thread
-import scala.util.Random
-import akka.util.Timeout
-import scala.collection.mutable.ArrayBuffer
-
-class LockingActor(printstr:String) extends Actor {
-  var othermessagesanswered:Int = 0
+class LockingActor(identitystr:String) extends Actor {
+  var repliesnumber:Int = 0
+  var actorrefmessagenum:Int = 0
   def receive = 
   {
     case other: ActorRef =>
@@ -23,19 +17,19 @@ class LockingActor(printstr:String) extends Actor {
       val response = other.ask("please reply")(50000)
       response onComplete 
       { 
-        case Success(result) => println("success: " + result)
+        case Success(result) => 
+        {
+          println(identitystr + ": Got answer that says: \"" + result + "\"")
+        }
         case Failure(failure) => println(failure)
       }
-      othermessagesanswered += 1
-      println(printstr + ": " + othermessagesanswered.toString())
+      println(identitystr + " finished treating actorrefmessage number " + actorrefmessagenum.toString())
+      actorrefmessagenum += 1
     }
     case "please reply" =>
     {
-      sender() ! "this is a reply"
-    }
-    case s: String =>
-    {
-      println("got string: " + s)
+      sender() ! ("this is a reply from: " + identitystr + ". It is reply number " + repliesnumber.toString())
+      repliesnumber += 1
     }
   }
 }
@@ -43,21 +37,18 @@ class LockingActor(printstr:String) extends Actor {
 
 object Main extends App 
 {
-    def deadlockattempt(): Unit =
-    {
-      val system = ActorSystem("DemoSystem")
-      val aActor = system.actorOf(Props(classOf[LockingActor], "a"))
-      val bActor = system.actorOf(Props(classOf[LockingActor], "b"))
-      for (x <- 0 to 10)
-      {
-        println(x)
-        Future{ aActor ! bActor }
-        Future{ bActor ! aActor }
-        //Thread.sleep(1)
-      }
-      Thread.sleep(1000) 
-      scala.sys.exit()
-    }
 
-  deadlockattempt()
+  val system = ActorSystem("DemoSystem")
+  val aActor = system.actorOf(Props(classOf[LockingActor], "a"))
+  val bActor = system.actorOf(Props(classOf[LockingActor], "b"))
+  for (x <- 0 to 7)
+  {
+    println("main thread sending references to both actors, round " + x.toString())
+    Future{ aActor ! bActor }
+    Future{ bActor ! aActor }
+    //Thread.sleep(1)
+  }
+  Thread.sleep(5000) 
+  scala.sys.exit()
+
 }
