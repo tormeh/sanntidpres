@@ -1,30 +1,56 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/main.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/main.scala)[0m
 [0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.2[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.2  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_35ed2cd9[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/tormod/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/tormod/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/xsbti/interface-0.13.5.jar:/home/tormod/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/compiler-interface-src/compiler-interface-src-0.13.5.jar:/home/tormod/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.2.jar:/home/tormod/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/tormod/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/tormod/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.2.jar:/home/tormod/.ivy2/cache/jline/jline/jars/jline-2.12.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_338b946d/xsbt/ScaladocInterface.scala[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.2[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 44a9f866, interfacing (CompilerInterface) with Scala compiler version 2.11.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1e1c2fc6, interfacing (CompilerInterface) with Scala compiler version 2.11.2[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-optimise[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/tormod/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/scala-2.11/classes:/home/tormod/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.6.jar:/home/tormod/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.925346861 s[0m
+[0m[[0mdebug[0m] [0m	/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/scala-2.11/classes:/home/tormod/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.6.jar:/home/tormod/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 12.396047771 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

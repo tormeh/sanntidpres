@@ -1,41 +1,41 @@
 [0m[[0minfo[0m] [0mRunning Main [0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 0[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 1[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 0[0m
-[0m[[0minfo[0m] [0ma finished treating actorrefmessage number 0[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 2[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 3[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 1[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 4[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 5[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 6[0m
 [0m[[0minfo[0m] [0mmain thread sending references to both actors, round 7[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 0"[0m
-[0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 0"[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 2[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 3[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 4[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 0[0m
+[0m[[0minfo[0m] [0ma finished treating actorrefmessage number 0[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 1[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 1[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 5[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 6[0m
-[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 7[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 1"[0m
-[0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 1"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 2[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 2[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 2"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 3[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 3[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 3"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 4[0m
+[0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 0"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 0"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 5[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 4[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 4"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 6[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 5[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 5"[0m
+[0m[[0minfo[0m] [0mb finished treating actorrefmessage number 7[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 6[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 6"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 1"[0m
 [0m[[0minfo[0m] [0ma finished treating actorrefmessage number 7[0m
-[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 7"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 2"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 3"[0m
+[0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 1"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 4"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 2"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 5"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 3"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 4"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 6"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 5"[0m
+[0m[[0minfo[0m] [0ma: Got answer that says: "this is a reply from: b. It is reply number 7"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 6"[0m
 [0m[[0minfo[0m] [0mb: Got answer that says: "this is a reply from: a. It is reply number 7"[0m

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/}akka...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/}akka...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: demo#demo_2.11;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,21 +7,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for demo#demo_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aab651d[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6aab651d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c92121e[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-library/2.11.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom (2.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.pom(pom.original) (411ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom (2.11.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.pom(pom.original) (653ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-library/2.11.2/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in public[0m
 [0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-library;2.11.2 [compile->runtime][0m
@@ -30,20 +28,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.3.6 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.3.6 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.6/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.3.6[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-actor_2.11;2.3.6[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom (2.3.6)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.6!akka-actor_2.11.pom(pom.original) (385ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom (2.3.6)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.6!akka-actor_2.11.pom(pom.original) (573ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.6/jars/akka-actor_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.3.6 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile][0m
@@ -54,20 +50,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.6->com.typesafe#config;1.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/com.typesafe/config/1.2.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#config;1.2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom (1.2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.1!config.pom(pom.original) (381ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom (1.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.1!config.pom(pom.original) (632ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/com.typesafe/config/1.2.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.6->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.6->com.typesafe#config;1.2.1 [compile->runtime(*)][0m
@@ -198,20 +192,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-compiler;2.11.2 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {scala-tool=[default, optional(default)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-compiler/2.11.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom (2.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.2!scala-compiler.pom(pom.original) (388ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom (2.11.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.2!scala-compiler.pom(pom.original) (579ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-compiler/2.11.2/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-compiler;2.11.2 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-compiler;2.11.2 [scala-tool->compile][0m
@@ -225,20 +217,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (393ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (575ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in public[0m
 [0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
@@ -251,21 +241,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom (1.0.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.pom(pom.original) (375ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -279,20 +257,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom (1.0.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.pom(pom.original) (394ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom (1.0.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.pom(pom.original) (586ms)[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.2/bundles/scala-parser-combinators_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
@@ -317,23 +293,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->jline#jline;2.12 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12 {optional=[compile(*), master(*)]}[0m
-[0m[[0minfo[0m] [0mResolving jline#jline;2.12 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/jline/jline/2.12/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for jline#jline;2.12[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for jline#jline;2.12[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom (2.12)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;2.12!jline.pom(pom.original) (438ms)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom (2.12)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;2.12!jline.pom(pom.original) (696ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m		tried /home/tormod/.ivy2/local/jline/jline/2.12/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.12 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->jline#jline;2.12 [optional->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-library;2.11.2 [scala-tool->default][0m
@@ -343,67 +318,62 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies demo#demo_2.11;1.0->org.scala-lang#scala-library;2.11.2 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.jar (7243ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.6!akka-actor_2.11.jar (3296ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.1!config.jar(bundle) (633ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar (16633ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (6281ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle) (1176ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle) (855ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12!jline.jar (599ms)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7449ms :: artifacts dl 36741ms[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 compile produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 runtime produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 test produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 provided produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 optional produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 compile-internal produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 runtime-internal produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 test-internal produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 plugin produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 sources produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 docs produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 pom produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 scala-tool produced in /home/tormod/Documents/skole/fall2014/sanntidspres/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7449ms resolve - 36741ms download)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.2!scala-library.jar (3221ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.6/akka-actor_2.11-2.3.6.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.6!akka-actor_2.11.jar (1883ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.1!config.jar(bundle) (665ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.2/scala-compiler-2.11.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar (6441ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (2481ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle) (752ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12!jline.jar (704ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8627ms :: artifacts dl 16164ms[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 compile produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 runtime produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 test produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 provided produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 optional produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 compile-internal produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 runtime-internal produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 test-internal produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 plugin produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 sources produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 docs produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 pom produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for demo#demo_2.11;1.0 scala-tool produced in /home/tormod/Documents/skole/fall2014/sanntid/sanntidpres/akka/target/resolution-cache/reports/demo-demo_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (8627ms resolve - 16164ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
